@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
     });
 })
 
-// Các route quản lý liên hệ sẽ được dùng khi đường dẫn bắt đầu là /api/contacts.
+
 app.use("/api/contacts", contactsRouter);
 // handle 404 response
 
